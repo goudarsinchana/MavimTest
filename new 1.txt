@@ -1,0 +1,19 @@
+<div className="login-wrapper">
+    <form action="" className="form">
+      <img src="avt.jpg" alt="" />
+      <h2>Login</h2>
+      <div className="input-group">
+        <input type="text" id="loginUser" required />
+        <label for="loginUser">User Name</label>
+      </div>
+      <div className="input-group">
+        <input type="password" id="loginPassword" required />
+        <label for="loginPassword">User Password</label>
+      </div>
+      <div className="submit-btn d-flex justify-content-md-left justify-content-center p-3">
+      <a href="./Home.html">
+        <input type="button" value="Login" className="btn btn-lg"/>
+      </a>
+      </div>
+       
+    </form>
